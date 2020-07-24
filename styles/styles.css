@@ -2,21 +2,10 @@
   box-sizing: border-box;
 }
 
-#logo-header {
-  display: flex;
-  justify-content: center;
-}
-
-#logo-header img {
-
-}
-
-#logo-header h1 {
-  margin: auto 0px;
-  text-transform: uppercase;
-  font-family: Amiri, sans-serif;
-  color: #666;
-  font-size: 3vw;
+.logo {
+  width: 60%;
+  display: block;
+  margin: 10px auto;
 }
 
 nav ol {
@@ -41,9 +30,7 @@ nav a:hover {
 
 /* background image as img */
 #main-image {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .homepage-text {
