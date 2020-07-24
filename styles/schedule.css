@@ -27,3 +27,11 @@ nav a:hover {
   border-bottom: #26a5dc 1px solid;
   transition: ease-in-out 150ms;
 }
+
+p {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 2rem;
+  color: #555;
+}
