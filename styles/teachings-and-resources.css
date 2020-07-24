@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 60%;
+  display: block;
+  margin: 10px auto;
+}
+
+nav ol {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: Questrial, monospace;
+  text-transform: lowercase;
+  font-size: 1.3vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  padding-bottom: 5px;
+  border-bottom: #26a5dc 1px solid;
+  transition: ease-in-out 150ms;
+}
